@@ -1,0 +1,9 @@
+.border {
+    border: 1px solid black !important;
+    height: 15vh;
+    background: #34495e;
+    color: white;
+}
+.row {
+    border: 3px solid red;
+}

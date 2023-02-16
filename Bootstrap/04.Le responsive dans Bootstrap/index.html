@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- col col-sm (small devices), col-md (medium), col-lg (large), col-xl (extra larges) -->
+        <!-- extra small = 12 colonnes 
+        col-sm-3 = 3 colonnes
+        col-md-6 = 6 colonnes
+        col-lg-8 = 8 colonnes
+        col-xl-10 = 10 colonnes
+        -->
+
+        <div class="row">
+            <div class="col-12 col-sm-3 col-md-6 col-lg-8 col-xl-10 border">My content</div>
+        </div>
+
+
+        <div class="row">
+          <!-- Apparait en version extra small (<576px) et disparait quand l'écran est ≥576px -->
+                <div class="d-block d-sm-none border">Extra small &lt; 576px</div>
+               <!-- N'apparait pas en version extra small (<576px), apparaît en version small (≥576) -->
+                <div class="d-none d-sm-block d-md-none border">Small ≥576px</div>
+                <!-- N'apparait pas en version extra small et small, apparait en version medium (≥768px) et disparait en version large (≥992px) -->
+                <div class="d-none d-md-block d-lg-none border">Medium ≥768px</div>
+              <!-- Ne s'affiche qu'en version extra large (≥1200px) -->
+                <div class="d-none d-xl-block border">Extra large ≥1200px</div>
+                
+            
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

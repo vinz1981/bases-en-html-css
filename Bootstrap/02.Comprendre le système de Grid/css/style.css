@@ -1,0 +1,7 @@
+.border {
+    background-color: #34495e;
+    height: 15vh ;
+    color: whitesmoke;
+    border: 1px solid blue !important; 
+    /* important = écrase le style de bootstrap */
+}

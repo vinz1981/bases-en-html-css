@@ -1,0 +1,13 @@
+.border {
+    border: 1px solid red !important;
+    height: 15vh;
+    background: rgb(8, 96, 131);
+    color: white;
+}
+.row {
+    border: 3px solid black;
+}
+
+#block-1, #block-2, #block-3{
+    height: 30vh;
+}
