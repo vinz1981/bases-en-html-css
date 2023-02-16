@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    height: 150px;
+    width: 150px;
+    margin: 20px auto;
+    background-color: grey;
+    padding: 20px;
+text-align: center;
+}
+
+.solid {
+    border: 3px solid black;
+}
+
+.dashed {
+    border: 3px dashed black ;
+}
+
+.thick_double {
+
+border: thick_double black
+}
+.ridge {
+    border: 20px ridge black
+}

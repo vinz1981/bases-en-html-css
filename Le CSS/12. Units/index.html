@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- WIDTH -->
+
+    <!-- PIXELS -->
+
+    <h2>Width</h2>
+
+<!-- précis mais pas responsive -->
+
+<div id="width_pixels" >
+    <p>1000px</p>
+</div>
+
+<!-- Le pourcentage = %  s'exprime toujours par rapport au parent-->
+<!-- Dynamique, c'est à dire que les éléments peuvent changer de forme une fois que la page a été chargée-->
+
+<div class="container parent">
+    parent 60%
+    <div class="inner-elem" id="width_percentage"> 
+        <p>Enfant : 50%</p>
+    </div>
+</div>
+
+<!-- View width -->
+<!-- Se basera par rapport à notre page/fenêtre -->
+
+<div class="container parent_vw">
+    parent 60vw
+    <div class="inner-elem" id="width_vw"> 
+        <p>Enfant : 60vw</p>
+    </div>
+</div>
+
+<!--  HEIGHT -->
+<!-- Height = % -->
+
+<div class="container parent_height_percentage">
+    parent 30%
+    <div class="inner-elem" id="height_percentage"> 
+        <p>Enfant : 20%</p>
+    </div>
+</div>
+
+<!-- View Height -->
+
+<div class="container parent_vh">
+    parent 5vh
+    <div class="inner-elem" id="height_vh"> 
+        <p>Enfant : 10vh</p>
+    </div>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 - Les Formulaires</title>
+</head>
+<body>
+    <table border="1">
+
+    <form action="/ma-page-de-traitement" method="post">
+        <fieldset> 
+        <!-- Un formulaire est un moyen d'intérragir avec l'internaute, de communiquer avec le propriétaire du site web, 
+            stocker des données, gérer des mails-->
+        
+        <label for="">Ton nom </label> 
+            <!-- <label> indique le champ à remplir pour lier le label input-->
+                <!-- <input> es une légende, un élément vide, maxlength=limiter le nombre de lettres, required=champs obligatoire -->
+        <input type="text" id="firstname" maxlength="12" required autofocus> 
+        <br> <br>
+        
+        <label for="mail">Ton mail:</label>
+        <input type="email" id="email" value="test@gmail.com"> 
+            
+        <br> <br>
+
+        <label for="mot de passe">Ton mdp</label>
+        <input type="mot de passe" id="mot de passe">
+
+        <br><br>
+
+        <label for="anniversaire">Ton Anniversaire</label>
+        <input type="date" id="date"> 
+        
+        <br> <br>
+        <p>Choisis ton sport</p>
+    
+        <label for="Danse">Danse</label> 
+        <input type="checkbox" id="danse" name="activité">
+
+        <label for="boxe">Boxe</label> 
+        <input type="checkbox" id="boxe" name="activité" checked> 
+        <!-- "checked" coche par défaut la case -->
+
+        <label for="natation">Natation</label> 
+        <input type="checkbox" id="Natation" name="activité">
+    
+        <br><br>
+
+        <label for="Choisis ton sexe">Choisis ton sexe</label> <br><br>
+        <label for="Homme">Homme</label> <input type="radio" name="sexe" id="Homme">
+        <label for="Femme">Femme</label> <input type="radio" name="sexe" id="Femme">
+        
+        <br><br>
+
+        <p>Choisis ton pays</p>
+
+        
+        <select name="Pays">
+            <option value="fr">France</option>
+            <option value="fr">Espagne</option>
+            <option value="fr">Angleterre</option>
+            <option value="it">Italie</option>    
+        </select>
+        
+        <br><br>
+
+        <select name="pays" multiple>
+            <option value="disabled">Choisis ton pays</option>
+
+            <optgroup label="Europe"</optgroup>
+            <option value="France">France</option>
+            <option value="Espagne">Espagne</option>
+            <option value="Angleterre">Angleterre</option>
+            <option value="Italie">Italie</option>  
+            </optgroup> 
+        
+        </select> 
+
+        <br><br>
+
+        <select name="pays" multiple>
+            <option value=""disabled>Choisis ton pays</option>
+
+            <optgroup label="Asie"</optgroup> 
+            <option value="Jap">Japon</option>
+            <option value="Ch">Chine</option>
+            <option value="Cor">Corée</option>
+            <option value="Viet">Vietnam</option>  
+            </optgroup> 
+        
+        </select>
+
+        
+        <br><br>
+ 
+        <textarea name="" id="" cols="30" rows="5" placeholder="écris ta description"></textarea>
+             
+        <br><br>
+
+        <input type="submit" value="s'inscrire"> 
+        
+        <ensp> </ensp> 
+        
+        <input type="button" value="reset">
+       
+
+        
+    </form>
+</fieldset>
+</body>
+</table>
+</body>
+</html>

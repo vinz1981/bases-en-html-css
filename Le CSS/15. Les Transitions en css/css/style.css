@@ -1,0 +1,43 @@
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.square {
+    width: 200px;
+    height: 200px;
+}
+
+.transition1 {
+    background: blueviolet;
+    transition-property: background;
+    transition-duration: 1s;
+}
+.transition1:hover {
+    background: blue;
+    transform: rotate(30deg);  
+}
+
+.transition2 {
+    background: blueviolet;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.transition2:hover {
+    background: yellow;
+    transform: rotate(30deg); 
+}
+
+.transition3 {
+    background: url(../images/Unknown.jpeg) no-repeat center;
+    background-position: center;
+    background-size: cover;
+    transition: transform: 500ms linear;
+}
+
+.transition3:hover {
+    transform: scale(1.1);
+}

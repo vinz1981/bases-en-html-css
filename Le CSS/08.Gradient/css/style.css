@@ -1,0 +1,21 @@
+
+
+div {
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+}
+
+div:nth-child(1) {
+    background: linear-gradient(red,blue,yellow);
+}
+
+div:nth-child(2) {
+    background: linear-gradient(red 10%,50%,blue);
+}
+
+div:nth-child(3) {
+    background: linear-gradient(45deg, blue,red);
+}
+
+

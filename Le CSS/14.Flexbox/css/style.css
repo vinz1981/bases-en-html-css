@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7f8c8d;
+    margin-left: 50px;
+}
+
+h2 {
+    color: white;
+}
+
+.d-flex {
+    display: flex;
+    margin: 20px;
+    background-color: #bdc3c7;
+    border: 1px solid tomato;
+    color: white;
+}
+.inner-elem {
+    border: 1px solid #c0392b;
+    height: 100px;
+    padding: 10px;
+    background-color: #34495e;
+}
+   
+.justify-content {
+    justify-content: center;
+}
+ /* justify-content: center; */
+    /* justify-content: space-between; met de l'espace entre les elements */
+    /* justify-content: space-around; /** met de l'espace autour de nos elements */
+    /* justify-content: space-evenly; */
+
+.align-items { 
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-self {
+    height: 400px;
+}
+
+.align-self .inner-elem:first-child {
+    align-self: flex-end;
+}
+
+.align-self .inner-elem:nth-child(3) {
+    align-self: center;
+}
+
+/* Les "Flex", par défaut, réparti l'espace entre les éléments, donc si il est plus garns que son parent, les flex diviseront par le nombre d'éléments */
+
+/* Le wrap va respecter la largeur de vos éléments et si il n'a pas la place, il ira à la ligne */
+.flex-wrap .inner-elem {
+    width: 45%;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.order3 {
+    order: 3;
+}
+
+.order4 {
+    order: 4;
+}
+
+.order5 {
+    order: 5;
+}
+
+.flex-grow div:nth-last-of-type(1) {
+    flex-grow: 1;
+}
+.flex-grow div:nth-last-of-type(2) {
+    flex-grow: 3;
+}
+.flex-grow div:nth-last-of-type(3) {
+    flex-grow: 1;
+}
+.flex-grow div:nth-last-of-type(4) {
+flex-grow: 1;
+}

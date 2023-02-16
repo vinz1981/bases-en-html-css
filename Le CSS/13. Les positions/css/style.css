@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 2000px;
+}
+
+#relative,
+#absolute,
+#fixed,
+#sticky {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    color: white;
+    font-size: 40px;
+}
+
+/* Relative = Se positionne par rapport à la où il est placé au départ, puis il seradécalé selon les valeurs fournies(top, let, bottom, right). Son  décalage n'a pas d'impact sur la position des éléments  */
+
+#relative {
+    position: relative;
+    top: 300px;
+    left: 500px;
+    background-color: #34495e;
+}
+
+/* Absolute = Se positionne par rapport à la page. Une position absolue ne laisse aucun espace vide après qu'il soit positionné. On pourra utiliser les proprietés left, top pour placer les éléments*/
+
+#absolute {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    background-color: #7f8c8d;
+
+}
+
+/* Fixed = Sa position est fixe, scroll pour voir */
+
+#fixed {
+    position: fixed;
+    top: 200px;
+    left: 800px;
+    background-color: palevioletred;
+}
+
+/* Sticky = Ne dépassera jamais la valeur indiquée */
+#sticky {
+    position: sticky;
+    top: 50px;
+    background-color: aqua;
+}

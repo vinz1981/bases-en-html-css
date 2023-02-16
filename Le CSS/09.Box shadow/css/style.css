@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 100px
+}
+h2 {
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 600px;
+    margin: 20px auto;
+    background-color: midnightblue;
+    padding: 20px;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+/* Aller sur Box shadow generator.com */
+div:nth-of-type(1) {
+    box-shadow:11px 0px 20px 0px rgba(0,0,0,0.55);
+}
+
+div:nth-last-of-type(2) {
+    box-shadow: -20px 0px 20px 0px rgba(0,0,0,0.55);
+
+}
+
+div:nth-of-type(3) {
+    box-shadow: 0px -20px 16px 0px rgba(0,0,0,0.55)
+    ;
+}
+
+div:nth-of-type(4) {
+    box-shadow: 0px 20px 16px 0px rgba(0,0,0,0.55)
+    ;
+
+}
+

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(154, 154, 154);
+}
+
+div {
+    border: 1px solid  white;
+    height: 500px;
+    width: 500px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.margin-left {
+    border: 1px solid black;
+    margin-left: 100px;
+}
+
+.margin-top {
+    border: 1px solid black;
+    margin-top: 100px;
+}
+

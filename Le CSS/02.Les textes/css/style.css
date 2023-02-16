@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 10%; 
+    /* margin-left = marge à gauche pour décaler mon texte vers la droite */
+}
+
+h2 + p {
+    margin-bottom: 40px;
+}
+
+.color + p {
+    color: red;
+}
+
+.font-size + p {
+    font-size: 40px;
+}
+/* modifie la police d'écriture */
+
+.font-family + p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* modifie la taille de la police */
+
+.line-height + p {
+    line-height: 40px;
+}
+
+.letter-sapcing + p {
+    letter-spacing: 30px;
+}
+
+.word-spacing + p {
+    word-spacing: 30px;
+}
+
+.text-align + p {
+    text-align: center;
+}
+
+.text-decoration + p {
+    text-decoration: underline;
+}
+
+.font-weight + p {
+    font-weight: 200;
+}
+
+.font-style + p {
+    font-style: italic;
+}
+
+.text-indent + p {
+    text-indent: 30px;
+}
+
+.text-transform + p {
+    text-transform: uppercase;
+}
