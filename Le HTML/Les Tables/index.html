@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04 - Les Tables</title>
+</head>
+<body>
+    <h1>Tableau simple</h1>
+    <!-- <Table> permet de  représenter un tableau -->
+        <!-- <tr> est une ligne dans un tableau -->
+        <!-- <td> est une cellule -->
+    <table>
+        <tr>
+            <td>cellule1</td>
+            <td>cellule2</td>
+            <td>cellule3</td>
+        </tr>
+    </table >
+ <!-- <border> est un attribut html pour créer une bordure -->
+
+    <table border="1">
+        <tr>
+            <td>cellule1</td>
+            <td>cellule2</td>
+            <td>cellule3</td>
+        </tr>
+    </table>
+    <table border="1">
+    <tr>  
+            <th>cellule1</th>
+            <th>cellule2</th>
+            <th>cellule3</th>
+
+</tr>
+</table>
+
+<body>
+    <h2>Tableau Complexe</h2>
+   
+    <table border="1">
+        <caption>C'est une légende</caption>
+        <!-- <caption> est une légende sur le tableau -->
+            <!-- <thead> défini l'entête des colonnes d'un tableau -->        
+            
+                <thead>
+        <tr>
+
+            <th>Titre1</th>
+            <th>Titre2</th>
+            <th>Titre3</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>cellule1</td>
+                <td>cellule2</td>
+                <td>cellule3</td>
+            </tr>
+            <tr>
+                <td>cellule1</td>
+                <td>cellule2</td>
+                <td>cellule3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">cellule1</td>
+                <!-- rowspan est un attribut html permettant de définir combien la ligne prendra de cellules -->
+                <td>cellule2</td>
+                <td>cellule3</td>
+            </tr>
+            <tr>
+                <td>cellule1</td>
+                <td>cellule2</td>
+            </tr>
+        </tbody>
+        <!-- <tbody> défini le corps de la table -->
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <td colspan="2">100</td>
+                </tr>
+                <!-- <tfoot>bas du tableau -->
+            </tfoot>
+        
+    </table >
+
+    
+</body>
+</html>
